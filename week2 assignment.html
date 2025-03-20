@@ -3,14 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Form</title>
+    <title>Index Page</title>
 </head>
 <body>
-    <h1>Registration Form</h1>
-    <!-- Registration Form with Validation Attributes -->
-    <form action="/submit_form" method="POST">
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Ordered List with Roman Numerals</h2>
+    <ol type="I">
+        <li>Introduction</li>
+        <li>Features</li>
+        <li>Details</li>
+        <li>Benefits</li>
+        <li>Conclusion</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>External Image from Pexels</h2>
+    <img src="lethu.jpg" alt="Image of a Duck" width="600" />
+
+    <!-- Table of 5 Contacts -->
+    <h2>Contact Information</h2>
+    <table border="1" cellpadding="10">
+        <tr>
+            <th>Name</th>
+            <th>Address</th>
+            <th>Mobile</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Lindani Mabaso</td>
+            <td>1234 Elm Street, Springfield</td>
+            <td>(555) 123-4567</td>
+            <td>lindani@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Philani Zulu</td>
+            <td>4321 Oak Avenue, Rivertown</td>
+            <td>(555) 987-6543</td>
+            <td>philanizulu@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Michael Brown</td>
+            <td>5678 Pine Road, Lakeside</td>
+            <td>(555) 555-1234</td>
+            <td>michaelb@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Emily Clark</td>
+            <td>9876 Maple Lane, Greenfield</td>
+            <td>(555) 444-6789</td>
+            <td>emilyclark@gmail.com</td>
+        </tr>
+        <tr>
+            <td>David Wilson</td>
+            <td>1357 Birch Blvd, Oceanview</td>
+            <td>(555) 321-4321</td>
+            <td>davidwilson@gmail.com</td>
+        </tr>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="/submit_registration" method="POST">
         <label for="username">Username:</label>
-        <input type="text" id="username" name="username" required minlength="3" maxlength="15" placeholder="Enter username" /><br><br>
+        <input type="text" id="username" name="username" required placeholder="Enter username" /><br><br>
 
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required placeholder="Enter your email" /><br><br>
@@ -27,35 +83,7 @@
         <button type="submit">Register</button>
     </form>
 
-    <h2>Embedded Image</h2>
-    <img src="lethu.jpg" alt="Placeholder Image" width="150" height="150" /><br><br>
-
-    <h2>Table</h2>
-    <table border="1">
-        <tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>Email</th>
-        </tr>
-        <tr>
-            <td>Sphesonke</td>
-            <td>Maseko</td>
-            <td>blessingsphesonke@gmail.com</td>
-        </tr>
-        <tr>
-            <td>Sphesonke</td>
-            <td>Maseko</td>
-            <td>blessingsphesonke@gmail.com</td>
-        </tr>
-    </table>
-
-    <h2>List</h2>
-    <ul>
-        <li>HTML</li>
-        <li>Python</li>
-        <li>Software development</li>
-        <li>Flutter</li>
-        <li>Database</li>
-    </ul>
 </body>
 </html>
+
+      
