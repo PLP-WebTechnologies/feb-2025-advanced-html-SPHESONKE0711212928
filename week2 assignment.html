@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <!-- Registration Form with Validation Attributes -->
+    <form action="/submit_form" method="POST">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required minlength="3" maxlength="15" placeholder="Enter username" /><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="Enter your email" /><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required minlength="8" placeholder="Enter password" /><br><br>
+
+        <label for="confirmPassword">Confirm Password:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" required minlength="8" placeholder="Confirm password" /><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" /><br><br>
+
+        <button type="submit">Register</button>
+    </form>
+
+    <h2>Embedded Image</h2>
+    <img src="lethu.jpg" alt="Placeholder Image" width="150" height="150" /><br><br>
+
+    <h2>Table</h2>
+    <table border="1">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Sphesonke</td>
+            <td>Maseko</td>
+            <td>blessingsphesonke@gmail.com</td>
+        </tr>
+        <tr>
+            <td>Sphesonke</td>
+            <td>Maseko</td>
+            <td>blessingsphesonke@gmail.com</td>
+        </tr>
+    </table>
+
+    <h2>List</h2>
+    <ul>
+        <li>HTML</li>
+        <li>Python</li>
+        <li>Software development</li>
+        <li>Flutter</li>
+        <li>Database</li>
+    </ul>
+</body>
+</html>
